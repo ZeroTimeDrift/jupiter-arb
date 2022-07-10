@@ -1,0 +1,115 @@
+{
+"label": "Orca",
+"id": "2yNwARmTmc3NzYMETCZQjAE5GGCPgviH6hiBsxaeikTK",
+"shouldPrefetch": false,
+"tokenSwapState": {
+    "address": "2yNwARmTmc3NzYMETCZQjAE5GGCPgviH6hiBsxaeikTK",
+    "programId": "9W959DqEETiGZocYWCQPaJ6sBmUzgfxXfqGeTEdp3aQP",
+    "tokenProgramId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "poolToken": "12Uj74zgUUoBe4yeackwQ4qYtFMr9fk1xL6q5Nha6t2N",
+    "feeAccount": "6AvWhLSuAqTWUdpo4jF84s4gfgAjbRQv5vLf7mYNCgd8",
+    "authority": "2ZzxuHxvPQtPU48Tffs8LD8sy17rgjBRQviRVxQ54fR6",
+    "tokenAccountA": "AfF3SJFpyfU7iw9KtrwPyi6corJbyiC24JyVis7oxNVr",
+    "tokenAccountB": "FT4GQqs5sEvqhsWm845VF1vmHjdQkrB1jdsGPJbzB4oB",
+    "mintA": "MNDEFzGvMt87ueuHvVU9VcTqsAP5b3fTGPsHuuPA5ey",
+    "mintB": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "tradeFeeNumerator": "19",
+    "tradeFeeDenominator": "2710",
+    "ownerTradeFeeNumerator": "05",
+    "ownerTradeFeeDenominator": "2710",
+    "ownerWithdrawFeeNumerator": "00",
+    "ownerWithdrawFeeDenominator": "00",
+    "curveType": 0,
+    "curveParameters": {
+        "type": "Buffer",
+        "data": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    }
+},
+"curveType": 0,
+"tokenAccounts": [
+    {
+        "mint": "MNDEFzGvMt87ueuHvVU9VcTqsAP5b3fTGPsHuuPA5ey",
+        "owner": "2ZzxuHxvPQtPU48Tffs8LD8sy17rgjBRQviRVxQ54fR6",
+        "amount": "010fecf53b72be",
+        "delegateOption": 0,
+        "delegate": null,
+        "state": 1,
+        "isNativeOption": 0,
+        "isNative": false,
+        "delegatedAmount": "00",
+        "closeAuthorityOption": 0,
+        "closeAuthority": null,
+        "isInitialized": true,
+        "isFrozen": false,
+        "rentExemptReserve": null
+    },
+    {
+        "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "owner": "2ZzxuHxvPQtPU48Tffs8LD8sy17rgjBRQviRVxQ54fR6",
+        "amount": "045457d544",
+        "delegateOption": 0,
+        "delegate": null,
+        "state": 1,
+        "isNativeOption": 0,
+        "isNative": false,
+        "delegatedAmount": "00",
+        "closeAuthorityOption": 0,
+        "closeAuthority": null,
+        "isInitialized": true,
+        "isFrozen": false,
+        "rentExemptReserve": null
+    }
+],
+"calculator": {
+    "traderFee": {
+        "numerator": [
+            25
+        ],
+        "denominator": [
+            10000
+        ]
+    },
+    "ownerFee": {
+        "numerator": [
+            5
+        ],
+        "denominator": [
+            10000
+        ]
+    },
+    "feesOnInput": true
+}
+}

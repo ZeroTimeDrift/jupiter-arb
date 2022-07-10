@@ -1,0 +1,65 @@
+{
+    "address": "3dvV75ULxUzuyg57ZwQiay5xfNNdxT6Y98LA11vQyneF",
+    "id": "3dvV75ULxUzuyg57ZwQiay5xfNNdxT6Y98LA11vQyneF",
+    "label": "Orca (Whirlpools)",
+    "shouldPrefetch": true,
+    "whirlpoolData": {
+        "whirlpoolsConfig": "2LecshUwdy9xi7meFgHtFJQNSKk4KdTrcpvaB56dP2NQ",
+        "whirlpoolBump": [
+            253
+        ],
+        "tickSpacing": 64,
+        "tickSpacingSeed": [
+            64,
+            0
+        ],
+        "feeRate": 2000,
+        "protocolFeeRate": 300,
+        "liquidity": "0157d1d7c783",
+        "sqrtPrice": "02226c67934eacd9",
+        "tickCurrentIndex": -95744,
+        "protocolFeeOwedA": "0289fee557",
+        "protocolFeeOwedB": "13b814",
+        "tokenMintA": "MNDEFzGvMt87ueuHvVU9VcTqsAP5b3fTGPsHuuPA5ey",
+        "tokenVaultA": "6eHGA6eFjtx4K1goECwpnZZ4QaPXaar7Kr1EUiF9ELyX",
+        "feeGrowthGlobalA": "013b33602739724c26",
+        "tokenMintB": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "tokenVaultB": "2NgBDC3JGkWYQE6Nt9945sb7BZ7fZw8zC48Ndac1pH2o",
+        "feeGrowthGlobalB": "07ee5fbdf7efa3",
+        "rewardLastUpdatedTimestamp": "62cacded",
+        "rewardInfos": [
+            {
+                "mint": "11111111111111111111111111111111",
+                "vault": "11111111111111111111111111111111",
+                "authority": "3Pi4tc4SxZyKZivKxWnYfGNxeqFJJxPc8xRw1VnvXpbb",
+                "emissionsPerSecondX64": "00",
+                "growthGlobalX64": "00"
+            },
+            {
+                "mint": "11111111111111111111111111111111",
+                "vault": "11111111111111111111111111111111",
+                "authority": "3Pi4tc4SxZyKZivKxWnYfGNxeqFJJxPc8xRw1VnvXpbb",
+                "emissionsPerSecondX64": "00",
+                "growthGlobalX64": "00"
+            },
+            {
+                "mint": "11111111111111111111111111111111",
+                "vault": "11111111111111111111111111111111",
+                "authority": "3Pi4tc4SxZyKZivKxWnYfGNxeqFJJxPc8xRw1VnvXpbb",
+                "emissionsPerSecondX64": "00",
+                "growthGlobalX64": "00"
+            }
+        ]
+    },
+    "tickArrays": {},
+    "tickPks": [
+        "9RRE6ksA4xDSJou7JaVpyAjnzUeKwvyNvrxFPFmrNnhG",
+        "9rBvyaXfCFE6N1juRKhD4MoidUf8upssgK6eAdw5RCFr",
+        "7vAkjBifisVpBaZxc4d3mzCBZPu9tYRYezqoJBiuVfkJ",
+        "42tqw7tpnCat7YdGTSYwwx4gBHqczrTA4k9AZ7L5CBhw",
+        "892j7SWkfGZ7Z28c46HoZLSxncnaWwdyZ77PdFW2uvuz",
+        "398UExsvYKPeL1tEvKFqsk8qMpWpLmDQykRL9s9Ej4pS"
+    ],
+    "oracle": "Fc2gVGrmxaxeTUbDBUiXQmyrT37ZPDEVydC8XfwpYUDj",
+    "feePct": 0.002
+}

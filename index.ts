@@ -4,7 +4,7 @@ import fetch from 'isomorphic-fetch';
 import bs58 from 'bs58';
 import {Jupiter, RouteInfo, TOKEN_LIST_URL} from '@jup-ag/core';
 
-const RPC_ENDPOINT = 'https://solana-api.projectserum.com';
+const RPC_ENDPOINT = 'https://ssc-dao.genesysgo.net';
 
 // Interface
 interface Token {
@@ -22,7 +22,7 @@ const USDC_MINT = 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v';
 const secretKey = process.env.SECRET_KEY!;
 const decodedSecretKey = bs58.decode(secretKey);
 const kp = Keypair.fromSecretKey(decodedSecretKey);
-
+// Logic for avoiding orca must be done here.
 const getRoutes = async ({
   jupiter,
   inputToken,
@@ -89,8 +89,8 @@ const executeSwap = async ({
 
     // Execute swap
     const swapResult: any = await execute(); // Force any to ignore TS misidentifying SwapResult type
-
-    if (swapResult.error) {
+/*     console.log("the route info is" + JSON.stringify(routeInfo.marketInfos));
+ */    if (swapResult.error) {
       console.log(swapResult.error);
     } else {
       console.log(`https://explorer.solana.com/tx/${swapResult.txid}`);
@@ -117,7 +117,19 @@ async function getBestRouteToSelf(
     inputAmount: amount, // 1 unit in UI
     slippage: 1, // 1% slippage
   });
-  return routes?.routesInfos[0];
+  /* const numberOfRoutes = routes?.routesInfos.length ?? 0; */
+  for (let i=0; i< (routes?.routesInfos.length ?? 0); i++) {
+    // check if amm.label is Orca
+    if (!routes?.routesInfos[i]?.marketInfos[0]?.amm?.label.includes('Orca')) {
+      return routes?.routesInfos[i];
+    } else {
+      console.log('Searching for a better route...');
+    }
+  }
+/*   console.log(JSON.stringify(routes?.routesInfos[0]?.marketInfos[0]?.amm?.label));
+ */
+/*   return routes?.routesInfos[0];
+ */
 }
 
 async function tryToExecuteSwap(
@@ -149,7 +161,7 @@ const main = async () => {
   });
 
   const usdcToken = tokens.find((t) => t.address === USDC_MINT)!;
-  const amount = 1000; // arbitrary small amount
+  const amount = 0.01; // arbitrary small amount
 
   console.log('running');
   for (let i = 0; i < 1000; ++i) {

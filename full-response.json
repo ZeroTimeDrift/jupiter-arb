@@ -1,0 +1,218 @@
+[
+    {
+        "amm": {
+            "label": "Orca",
+            "id": "2yNwARmTmc3NzYMETCZQjAE5GGCPgviH6hiBsxaeikTK",
+            "shouldPrefetch": false,
+            "tokenSwapState": {
+                "address": "2yNwARmTmc3NzYMETCZQjAE5GGCPgviH6hiBsxaeikTK",
+                "programId": "9W959DqEETiGZocYWCQPaJ6sBmUzgfxXfqGeTEdp3aQP",
+                "tokenProgramId": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+                "poolToken": "12Uj74zgUUoBe4yeackwQ4qYtFMr9fk1xL6q5Nha6t2N",
+                "feeAccount": "6AvWhLSuAqTWUdpo4jF84s4gfgAjbRQv5vLf7mYNCgd8",
+                "authority": "2ZzxuHxvPQtPU48Tffs8LD8sy17rgjBRQviRVxQ54fR6",
+                "tokenAccountA": "AfF3SJFpyfU7iw9KtrwPyi6corJbyiC24JyVis7oxNVr",
+                "tokenAccountB": "FT4GQqs5sEvqhsWm845VF1vmHjdQkrB1jdsGPJbzB4oB",
+                "mintA": "MNDEFzGvMt87ueuHvVU9VcTqsAP5b3fTGPsHuuPA5ey",
+                "mintB": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+                "tradeFeeNumerator": "19",
+                "tradeFeeDenominator": "2710",
+                "ownerTradeFeeNumerator": "05",
+                "ownerTradeFeeDenominator": "2710",
+                "ownerWithdrawFeeNumerator": "00",
+                "ownerWithdrawFeeDenominator": "00",
+                "curveType": 0,
+                "curveParameters": {
+                    "type": "Buffer",
+                    "data": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            },
+            "curveType": 0,
+            "tokenAccounts": [
+                {
+                    "mint": "MNDEFzGvMt87ueuHvVU9VcTqsAP5b3fTGPsHuuPA5ey",
+                    "owner": "2ZzxuHxvPQtPU48Tffs8LD8sy17rgjBRQviRVxQ54fR6",
+                    "amount": "01105ebeb2fe0d",
+                    "delegateOption": 0,
+                    "delegate": null,
+                    "state": 1,
+                    "isNativeOption": 0,
+                    "isNative": false,
+                    "delegatedAmount": "00",
+                    "closeAuthorityOption": 0,
+                    "closeAuthority": null,
+                    "isInitialized": true,
+                    "isFrozen": false,
+                    "rentExemptReserve": null
+                },
+                {
+                    "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+                    "owner": "2ZzxuHxvPQtPU48Tffs8LD8sy17rgjBRQviRVxQ54fR6",
+                    "amount": "04528a3118",
+                    "delegateOption": 0,
+                    "delegate": null,
+                    "state": 1,
+                    "isNativeOption": 0,
+                    "isNative": false,
+                    "delegatedAmount": "00",
+                    "closeAuthorityOption": 0,
+                    "closeAuthority": null,
+                    "isInitialized": true,
+                    "isFrozen": false,
+                    "rentExemptReserve": null
+                }
+            ],
+            "calculator": {
+                "traderFee": {
+                    "numerator": [
+                        25
+                    ],
+                    "denominator": [
+                        10000
+                    ]
+                },
+                "ownerFee": {
+                    "numerator": [
+                        5
+                    ],
+                    "denominator": [
+                        10000
+                    ]
+                },
+                "feesOnInput": true
+            }
+        },
+        "inputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "outputMint": "MNDEFzGvMt87ueuHvVU9VcTqsAP5b3fTGPsHuuPA5ey",
+        "notEnoughLiquidity": false,
+        "inAmount": 20000000,
+        "outAmount": 321315183616,
+        "priceImpactPct": 0.001072931501608335,
+        "lpFee": {
+            "amount": 60000,
+            "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "pct": 0.003
+        },
+        "platformFee": {
+            "amount": 0,
+            "mint": "MNDEFzGvMt87ueuHvVU9VcTqsAP5b3fTGPsHuuPA5ey",
+            "pct": 0
+        }
+    },
+    {
+        "amm": {
+            "address": "3dvV75ULxUzuyg57ZwQiay5xfNNdxT6Y98LA11vQyneF",
+            "id": "3dvV75ULxUzuyg57ZwQiay5xfNNdxT6Y98LA11vQyneF",
+            "label": "Orca (Whirlpools)",
+            "shouldPrefetch": true,
+            "whirlpoolData": {
+                "whirlpoolsConfig": "2LecshUwdy9xi7meFgHtFJQNSKk4KdTrcpvaB56dP2NQ",
+                "whirlpoolBump": [
+                    253
+                ],
+                "tickSpacing": 64,
+                "tickSpacingSeed": [
+                    64,
+                    0
+                ],
+                "feeRate": 2000,
+                "protocolFeeRate": 300,
+                "liquidity": "0157d1d7c783",
+                "sqrtPrice": "02226c67934eacd9",
+                "tickCurrentIndex": -95744,
+                "protocolFeeOwedA": "0289fee557",
+                "protocolFeeOwedB": "13b814",
+                "tokenMintA": "MNDEFzGvMt87ueuHvVU9VcTqsAP5b3fTGPsHuuPA5ey",
+                "tokenVaultA": "6eHGA6eFjtx4K1goECwpnZZ4QaPXaar7Kr1EUiF9ELyX",
+                "feeGrowthGlobalA": "013b33602739724c26",
+                "tokenMintB": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+                "tokenVaultB": "2NgBDC3JGkWYQE6Nt9945sb7BZ7fZw8zC48Ndac1pH2o",
+                "feeGrowthGlobalB": "07ee5fbdf7efa3",
+                "rewardLastUpdatedTimestamp": "62cacded",
+                "rewardInfos": [
+                    {
+                        "mint": "11111111111111111111111111111111",
+                        "vault": "11111111111111111111111111111111",
+                        "authority": "3Pi4tc4SxZyKZivKxWnYfGNxeqFJJxPc8xRw1VnvXpbb",
+                        "emissionsPerSecondX64": "00",
+                        "growthGlobalX64": "00"
+                    },
+                    {
+                        "mint": "11111111111111111111111111111111",
+                        "vault": "11111111111111111111111111111111",
+                        "authority": "3Pi4tc4SxZyKZivKxWnYfGNxeqFJJxPc8xRw1VnvXpbb",
+                        "emissionsPerSecondX64": "00",
+                        "growthGlobalX64": "00"
+                    },
+                    {
+                        "mint": "11111111111111111111111111111111",
+                        "vault": "11111111111111111111111111111111",
+                        "authority": "3Pi4tc4SxZyKZivKxWnYfGNxeqFJJxPc8xRw1VnvXpbb",
+                        "emissionsPerSecondX64": "00",
+                        "growthGlobalX64": "00"
+                    }
+                ]
+            },
+            "tickArrays": {},
+            "tickPks": [
+                "9RRE6ksA4xDSJou7JaVpyAjnzUeKwvyNvrxFPFmrNnhG",
+                "9rBvyaXfCFE6N1juRKhD4MoidUf8upssgK6eAdw5RCFr",
+                "7vAkjBifisVpBaZxc4d3mzCBZPu9tYRYezqoJBiuVfkJ",
+                "42tqw7tpnCat7YdGTSYwwx4gBHqczrTA4k9AZ7L5CBhw",
+                "892j7SWkfGZ7Z28c46HoZLSxncnaWwdyZ77PdFW2uvuz",
+                "398UExsvYKPeL1tEvKFqsk8qMpWpLmDQykRL9s9Ej4pS"
+            ],
+            "oracle": "Fc2gVGrmxaxeTUbDBUiXQmyrT37ZPDEVydC8XfwpYUDj",
+            "feePct": 0.002
+        },
+        "inputMint": "MNDEFzGvMt87ueuHvVU9VcTqsAP5b3fTGPsHuuPA5ey",
+        "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+        "notEnoughLiquidity": false,
+        "inAmount": 321315183616,
+        "outAmount": 22252303,
+        "priceImpactPct": 0.003803730553763003,
+        "lpFee": {
+            "amount": 642630367,
+            "mint": "MNDEFzGvMt87ueuHvVU9VcTqsAP5b3fTGPsHuuPA5ey",
+            "pct": 0.002
+        },
+        "platformFee": {
+            "amount": 0,
+            "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "pct": 0
+        }
+    }
+]
